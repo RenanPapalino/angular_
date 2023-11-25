@@ -1,7 +1,7 @@
 
 <h1 align="center">
   <br>
-  cadastro de Filmes
+  Cadastro de Filmes
 </h1>
 
 ## Rodando localmente
@@ -19,7 +19,7 @@ Essas instruções permitirão que você obtenha uma cópia do projeto em opera�
 2. Acesse a pasta dos fonts deste projeto
 
 ```bash
-  cd prova_angular
+  cd angular_
 ```
 
 3. Instale as dependências do projeto
