@@ -1,0 +1,135 @@
+{
+  "columns": [
+    {
+      "id": 1,
+      "name": "Filmes"
+    },
+    {
+      "id": 2,
+      "name": "Lista"
+    },
+    {
+      "id": 3,
+      "name": "Descricao"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Ação",
+      "color": "#929292"
+    },
+    {
+      "id": 2,
+      "name": "Suspense",
+      "color": "#935100"
+    },
+    {
+      "id": 3,
+      "name": "Comédia",
+      "color": "#00fcff"
+    },
+    {
+      "id": 4,
+      "name": "Drama",
+      "color": "#72fa78"
+    },
+    {
+      "id": 5,
+      "name": "Ficção Científica",
+      "color": "#0432ff"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Velozes e Furiosos",
+      "description": "A trama de Velozes e Furiosos acompanha Brian O' Connor, um policial que se infiltra nas corridas de carro ilegais para prender o criminoso Dominic Toretto",
+      "dtForecast": "",
+      "order": 1,
+      "columnId": 1,
+      "categoryId": 1,
+      "column": {
+        "id": 1,
+        "name": ""
+      },
+      "category": {
+        "id": 0,
+        "name": "",
+        "color": ""
+      }
+    },
+    {
+      "id": 2,
+      "title": "MATRIX",
+      "description": "O jovem programador Thomas Anderson é atormentado por estranhos pesadelos em que está sempre conectado por cabos a um imenso sistema de computadores do futuro.",
+      "dtForecast": "",
+      "order": 2,
+      "columnId": 1,
+      "categoryId": 5,
+      "column": {
+        "id": 0,
+        "name": ""
+      },
+      "category": {
+        "id": 1,
+        "name": "",
+        "color": ""
+      }
+    },
+    {
+      "id": 3,
+      "title": " Mistério em Paris",
+      "description": "Nick e Audrey Spitz abrem uma agência de investigação e finalmente conseguem um caso importante: um amigo bilionário é sequestrado no dia de seu casamento.",
+      "dtForecast": "",
+      "order": 3,
+      "columnId": 1,
+      "categoryId": 3,
+      "column": {
+        "id": 0,
+        "name": ""
+      },
+      "category": {
+        "id": 1,
+        "name": "",
+        "color": ""
+      }
+    },
+    {
+      "id": 4,
+      "title": "Oppenheimer",
+      "description": "O físico J. Robert Oppenheimer trabalha com uma equipe de cientistas durante o Projeto Manhattan, levando ao desenvolvimento da bomba atômica.",
+      "dtForecast": "",
+      "order": 4,
+      "columnId": 1,
+      "categoryId": 4,
+      "column": {
+        "id": 1,
+        "name": ""
+      },
+      "category": {
+        "id": 0,
+        "name": "",
+        "color": ""
+      }
+    },
+    {
+      "id": 5,
+      "title": "O Pacto",
+      "description": "Durante a guerra no Afeganistão, um intérprete arrisca sua vida para carregar um sargento ferido por quilômetros de terreno hostil em busca de um local seguro.",
+      "dtForecast": "",
+      "order": 5,
+      "columnId": 1,
+      "categoryId": 2,
+      "column": {
+        "id": 0,
+        "name": ""
+      },
+      "category": {
+        "id": 0,
+        "name": "",
+        "color": ""
+      }
+    }
+  ]
+}

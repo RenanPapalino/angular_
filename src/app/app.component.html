@@ -1,0 +1,18 @@
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+      <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon" (click)="sidenav.toggle()">
+          <mat-icon>menu</mat-icon>
+      </button>
+      <span>Lista de Filmes</span>
+  </mat-toolbar-row>
+</mat-toolbar>
+<mat-sidenav-container>
+  <mat-sidenav #sidenav mode="side" [opened]="true">
+      <mat-selection-list>
+          <a mat-list-item routerLink="task">Quadro de Filmes</a>
+          <a mat-list-item routerLink="category">Categorias</a>
+      </mat-selection-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
